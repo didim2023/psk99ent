@@ -475,7 +475,13 @@
 
 @media all and (max-width: 500px) {
     #sub05 .contents .clinic .img_box img {
-        max-width:35rem
+        max-width:32rem
+    }
+}
+
+@media all and (max-width: 420px) {
+    #sub05 .contents .clinic .img_box img {
+        max-width:27rem
     }
 }
 

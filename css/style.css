@@ -1708,5 +1708,13 @@ input[type="checkbox"]:checked::after {
   margin-top:0.5rem
 }
 
+@media all and (max-width: 660px) {
+  #footer .f_btm ul {
+    display:block;
+  }
 
+  #footer .f_btm ul li::after {
+    display: none;
+  }
+}
 
