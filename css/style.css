@@ -12,6 +12,7 @@
 html {
   font-size: 10px;
   overflow-x: hidden;
+  min-width:360px;
 }
 body {
   font-family: 'Noto Sans KR', sans-serif;
@@ -21,7 +22,7 @@ body {
   letter-spacing: -3px;
 
   overflow-x: hidden;
-  min-width:36rem;
+  min-width:360px;
 }
 
 a {
