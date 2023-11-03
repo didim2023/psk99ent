@@ -1245,6 +1245,10 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
   #main07 .contents03 ul li span {
     font-size:2.3rem
   }
+
+  #main07 .contents02 ul img {
+    max-width:5rem;
+  }
 }
 
 /*main08*/
@@ -1599,6 +1603,34 @@ input[type="checkbox"]:checked::after {
 
   .map_box {
     margin: 5rem 0 5rem
+  }
+}
+
+
+@media all and (max-width: 500px) {
+  #map {
+    padding:10rem 3rem
+  }
+  #map .txt_box {
+    display:block
+  }
+
+  #map .txt_box .inner {
+    width:100%
+  }
+
+  #map .txt_box .inner:first-child {
+    margin-bottom:4rem
+  }
+
+  #map .txt_box .inner > p {
+    margin-right:6rem
+  }
+
+  .map_box {
+    height:42rem;
+    overflow:hidden;
+    border-bottom:0.1rem solid #ddd
   }
 }
 
