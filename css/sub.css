@@ -883,3 +883,49 @@
     color: var(--white);
     font-size:2rem;
 }
+
+
+@media all and (max-width: 1000px) {
+    #sub07 .cel_box span {
+        font-size:2.4rem
+    }
+
+    #sub07 .contents .li_box .l_cel_box ul:last-child li:last-child span {
+        line-height:158%
+    }
+
+    #sub07 .contents .li_box .cel_box ul li {
+        white-space: nowrap;
+    }
+}
+
+@media all and (max-width: 767px) {
+    #sub07 .title span {
+        font-size:3rem;
+        width: 6.5rem;
+        height: 6.5rem;
+        line-height: 6.5rem;
+    }
+
+    #sub07 .title p {
+        font-size:2.7rem
+    }
+    
+}
+
+@media all and (max-width: 600px) {
+    #sub07 .contents .li_box {
+        display: block;
+        max-width:100%
+    }
+    #sub07 .contents .li_box .txt_box {
+        width:100%
+    }
+
+    #sub07 .contents .li_box .cel_box {
+        width: 70%;
+        margin: 5rem 0 0 10rem;
+        min-width: 40rem;
+    }
+}
+

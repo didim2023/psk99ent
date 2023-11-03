@@ -81,6 +81,14 @@ p {
   margin-bottom: 5rem
 }
 
+@media all and (max-width: 767px) {
+  .num {
+    font-size:4rem;
+    width: 7rem;
+    height: 7rem;
+  }
+}
+
 :root {
   --maincolor : #2871bb;
   --subcolor : #567697;
@@ -129,13 +137,10 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
   html {
     font-size:7px;
   }
-}
-
-@media all and (max-width: 640px) {
   h2 {
     font-size:4rem;
   }
-}
+  }
 
 @media all and (max-width: 640px) {
   h2 {
