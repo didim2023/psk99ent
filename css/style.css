@@ -405,6 +405,19 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
   }
 }
 
+@media all and (max-width: 640px) {
+  .side_menu {
+    width: 10rem;
+    right: -10rem;
+  }
+
+  .click_btn {
+    left:-7.3rem;
+    top: 3rem;
+  }
+}
+
+
 /* container_wr */
 
 #container_wr {
