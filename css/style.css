@@ -999,6 +999,17 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
   }
 }
 
+
+@media all and (max-width: 500px) {
+  #main06 .contents .clinic .img_box {
+      max-width:23rem;
+      width:50%;
+  }
+}
+
+
+
+
 /*main07*/
 #main07 {
   position: relative;

@@ -166,6 +166,13 @@
     }
 }
 
+@media all and (max-width: 500px) {
+    #sub02 .contents .clinic .img_box {
+        max-width:23rem;
+        width:50%;
+    }
+}
+
 
 
 /*sub03*/
