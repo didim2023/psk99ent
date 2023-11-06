@@ -356,7 +356,7 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
   position: absolute;
   background: #00a7e8;
   border-radius: 1rem 1rem 0 0;
-  width: 100%;
+  width: 95%;
   left: -8rem;
   top: 4.5rem;
   display: block;
@@ -412,6 +412,7 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
   }
 
   .click_btn {
+    width:100%;
     left:-7rem;
     top: 3rem;
   }
