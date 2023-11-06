@@ -406,7 +406,7 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
 
   .click_btn {
     top: 8%;
-    left:8.1rem
+    left:-8.1rem
   }
 }
 
