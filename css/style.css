@@ -403,9 +403,14 @@ textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
   .side_menu ul li {
     padding: 2rem 0;
   }
+
+  .click_btn {
+    top: 8%;
+    left:8.1rem
+  }
 }
 
-@media all and (max-width: 640px) {
+@media all and (max-width: 747px) {
   .side_menu {
     width: 10rem;
     right: -10rem;
